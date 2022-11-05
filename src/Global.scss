@@ -1,0 +1,47 @@
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+// Import Font family
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --theme-color: #98AB3F;
+    --heading-font: 'Roboto', sans-serif;
+    --text-font: 'Poppins', sans-serif;
+    --secondary-color: #60710E;
+    --theme-background: #f3f5f6;
+}
+
+// Custom scrollbar
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:#fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--theme-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    font-family: var(--text-font);
+    height: 100%;
+    background-color: var(--theme-background);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color:var(--secondary-color);
+}
