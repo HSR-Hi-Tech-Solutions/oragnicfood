@@ -1,0 +1,31 @@
+.hsr-menus{
+    margin-left: 1rem;
+    margin-right:1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.hsr-navbar{
+    background-color: #F8F8F8;
+    padding:1rem;
+}
+
+.hsr-menus:hover{
+    color:var(--theme-color)
+}
+
+#button-addon2{
+    background-color: white;
+    border:none;
+    color:lightgrey;
+    padding:1rem 1.5rem;
+    border-radius: 0px 5rem 5rem 0px;
+}
+
+.hsr-search-input{
+    border:none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding:1rem 1.5rem;
+    border-radius: 5rem 0px 0px 5rem;
+}
