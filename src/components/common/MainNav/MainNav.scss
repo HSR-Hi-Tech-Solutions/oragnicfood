@@ -8,6 +8,9 @@
 .hsr-navbar{
     background-color: #F8F8F8;
     padding:1rem;
+    .navbar-toggler{
+        border:none;
+    }
 }
 
 .hsr-menus:hover{

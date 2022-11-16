@@ -8,7 +8,7 @@ import logo from '../../assets/logo-2.png';
 const MainNav = () => {
   return (
     <>
-    <Navbar className="hsr-navbar" expand="lg">
+    <Navbar className="hsr-navbar sticky-top" expand="lg">
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} alt={"Company Logo"} width={160} />

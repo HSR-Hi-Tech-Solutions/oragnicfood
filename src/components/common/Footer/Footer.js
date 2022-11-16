@@ -1,9 +1,14 @@
 import React from 'react';
 import { Container, Row,Col, InputGroup, Button, Form } from "react-bootstrap";
-import { ArrowRight } from "react-bootstrap-icons";
+import { ArrowRight, Headset } from "react-bootstrap-icons";
 import './Footer.scss';
 
 import { Envelope, HouseDoor } from "react-bootstrap-icons";
+
+import discover from '../../assets/discover.png';
+import mastercard from '../../assets/mastercard.png';
+import paypal from '../../assets/paypal.png';
+import visa from '../../assets/visa.png';
 
 import logo from '../../assets/logo-2.png';
 
@@ -85,8 +90,36 @@ const Footer = () => {
           
         </Button>
       </InputGroup>
-
+          <Row className="mt-5">
+            <Col xs={3} lg={3} md={3}>
+            <Headset className="hsr-footer-headphone" /> 
+            </Col>
+            <Col xs={9} lg={9} md={9}>
+            <p className="hsr-footer-time">
+8:30 AM - 9:30 PM</p>
+<a className="hsr-footer-mobile" href="tel +91 9874561230">+91 98745 61230</a>
+            </Col>
+          </Row>
           </div>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+    <Container fluid className="bg-white hsr-copyright">
+      <Container>
+        <Row>
+          <Col xs={12} md={6} lg={6}>
+          <p>All Rights Reserved | Copyrighted by ©2022 HSR</p>
+          </Col>
+          <Col xs={12} md={2} lg={2}></Col>
+          <Col xs={12} md={4} lg={4}>
+            <div className="ms-auto hsr-cards">
+              <span className="me-2">We Support &emsp;</span>
+              <img src={discover} alt="Discover Logo" />&emsp;
+              <img src={paypal} alt="Discover Logo" />&emsp;
+              <img src={mastercard} alt="Discover Logo" />&emsp;
+              <img src={visa} alt="Discover Logo" />
+            </div>
           </Col>
         </Row>
       </Container>
