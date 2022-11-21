@@ -14,3 +14,108 @@
         text-align: center;
     }
 }
+
+.hsr-brands{
+    padding: 5rem 1rem;
+    background-color: #f8f8f8;
+    .item{
+        img{
+            height: 7rem;
+            width: auto;
+            object-fit: contain;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.hsr-hero-image{
+    min-height: 900px;
+    background-color: #f8f8f8;
+    position: relative;
+    align-items: center !important;
+    display: flex!important;
+    margin-bottom: 5rem;
+    .bottom-image-banner{
+    position: absolute;
+    left: 0;
+    bottom: 19px;
+    }
+    .hsr-discount-tag{
+        position: absolute;
+    right: 65px;
+    top: 145px;
+    z-index: 100;
+        .discount-text{
+            margin-top: -8.5rem;
+            text-align: center;
+            color: #1c1d1b;
+            text-transform: uppercase;
+            font-size: 24px;
+             span{
+                font-size: 40px;
+                display: block;
+                color: var(--theme-color);
+                line-height: 1;
+                margin-bottom: 4px;
+                font-weight: 700;
+             }
+        }
+        
+    }
+
+    .hero-left-wrapper{
+        .hsr-leaf{
+            top: -5rem;
+            position: relative;
+            left:27%;
+            z-index: 10;
+        }
+        .hsr-arrow{
+            position: absolute;
+            margin-top: 12.5rem;
+            margin-left: 200px;
+            img{
+                animation: sideleft 1s infinite alternate;
+            }
+        }
+        .hsr-content{
+            position: relative;
+            top: -10rem;
+            h2{
+                font-size: 125px;
+                font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    color:black;
+            }
+            p{
+                margin-bottom: 45px;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 26px;
+                color:#777;
+            }
+            .hsr-cta-button{}
+                .hsr-button{
+                    height: 60px;
+    background-color: var(--theme-color);
+    padding: 0 50px;
+    display: inline-block;
+    line-height: 57px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 1px solid var(--theme-color);
+    transition: all .3s ease-out 0s;
+}
+.hsr-button:hover{
+    color: var(--theme-color);
+    background-color: transparent;
+}
+            
+        }
+    }
+}
