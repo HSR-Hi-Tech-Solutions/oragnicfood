@@ -2,9 +2,108 @@
     border:none;
     .hsr-image-wrapper{
         background: #f8f8f8;
-        margin-bottom: 27px;
+        margin-bottom: 20px;
         padding: 35px 30px;
         position: relative;
         border-radius: 10px;
+        cursor: pointer;
+        img{
+            transition: all ease 0.3s;
+        }
+
+        
+        .yellow-tag{
+            background-color: #F8A231;
+            padding: 0.3rem 0.75rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .green-tag{
+            background-color: #699C47;
+            padding: 0.3rem 0.75rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: white;
+        }
+
+        .pink-tag{
+            background-color: #E66D6D;
+            padding: 0.3rem 0.75rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            position: absolute;
+            top: 0;
+            left: 0; 
+            color: white;
+        }
+    }
+
+    .hsr-image-wrapper:hover + img{
+        transform: scale(1.1);
+    }
+
+    .hsr-actions{
+        top: 53%;
+        position: absolute;
+        left: 30%;
+        transform: translateX(-18%);
+        width: 70%;
+
+        .hsr-action-icon{
+            font-size: 17px;
+            padding: 6.2px 9px;
+            border-radius: 50%;
+            background-color: white;
+            color: #7B7B7B;
+            margin: 7px;
+            cursor: pointer;
+        }
+
+        
+    }
+    .hsr-actions .hsr-action-icon:hover{
+        color: white !important;
+        background-color: #699C47 !important;
+    }
+
+    .hsr-hide{
+        display: none;
+    }
+
+    .hsr-image-wrapper:hover + .hsr-hide{
+        display: block;
+    }
+
+
+    .hsr-card-body{
+        text-align: center;
+        h3{
+            a{
+                color: #1c1d1b;
+                text-decoration: none;
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
+        }
+        p{
+            margin-bottom: 0 !important;
+        }
+        .hsr-strike-text{
+            text-decoration: line-through;
+        }
+        .hsr-selling-price{
+            color: var(--theme-color);
+            font-size: 1.2rem;
+        }
+        .hsr-yellow-star{
+            color: #F8A231;
+        }
     }
 }

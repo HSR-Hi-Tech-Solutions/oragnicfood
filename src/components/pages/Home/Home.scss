@@ -340,3 +340,39 @@
         margin-top: 2rem;
     }
 }
+
+.hsr-browse-category{
+    h1{
+        color:black;
+        font-size: 32px;
+    margin-bottom: 0;
+    font-weight: 800;
+    }
+
+    .hsr-card{
+        height: 40vh;
+        // background-color: #EFF5EE;
+        border: none;
+        border-radius: 10px;
+        img{
+            width: 100%;
+            border-radius: 10px;
+            height: 40vh;
+        }
+        .hsr-text{
+            position: absolute;
+            top: 35px;
+            left: 30px;
+            right: 30px;
+        }
+        h4{
+            color: #1c1d1b;
+        }
+        li{
+            color: #777777;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+    }
+}

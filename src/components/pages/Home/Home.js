@@ -1,6 +1,7 @@
 import React from 'react';
 import Blogs from "./Blogs";
 import Brands from "./Brands";
+import BrowseCategory from './BrowseCategory';
 import Features from "./Features";
 import HeroImage from "./HeroImage";
 import './Home.scss';
@@ -13,7 +14,9 @@ const Home = () => {
     <HeroImage />
     <Features />
     <ProductBanner />
+
     <Product1 />
+    <BrowseCategory />
     <Brands />
     <Blogs />
     </div>
